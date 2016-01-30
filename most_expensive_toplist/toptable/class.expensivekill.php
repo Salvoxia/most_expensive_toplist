@@ -8,7 +8,7 @@
 
 class TopTable_ExpensiveKill
 {
-	function TopTable_ExpensiveKill($toplist, $entity)
+	function __construct($toplist, $entity)
 	{
 		$this->toplist = $toplist;
 		$this->entity_ = $entity;
